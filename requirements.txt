@@ -1,5 +1,4 @@
-pydantic
-anthropic
-python-dotenv
-gradio
-
+pydantic==2.7.4
+anthropic==0.28.1
+python-dotenv==1.0.1
+gradio==4.36.1
