@@ -6,6 +6,15 @@ from app.backend.prompt_evalute import evaluate_prompts
 
 MAX_TABS = 5
 
+CLAUDE_API_KEY = None
+# added because spaces doesn't use env vars in a way allows os setting
+
+def set_api_key(api_key):
+    global CLAUDE_API_KEY
+    CLAUDE_API_KEY = api_key
+    return "API Key set successfully!"
+
+
 def detect_placeholders(prompt):
     placeholders = re.findall(r'\{(\w+)\}', prompt)
     return list(set(placeholders))  # Remove duplicates
@@ -119,7 +128,7 @@ def process_upload_and_update(file, placeholders):
     return [gr.update(visible=False)] * MAX_TABS
 
 def set_api_key(api_key):
-    os.environ["USER_API_KEY"] = api_key
+    os.environ["CLAUDE_API_KEY"] = api_key
     return "API Key set successfully!"
 
 logo_markdown = """
