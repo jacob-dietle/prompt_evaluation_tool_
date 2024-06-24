@@ -2,8 +2,7 @@ import gradio as gr
 import os
 import json
 import re
-from backend.prompt_evalute import evaluate_prompts, load_json
-from models.output_models import OutputContent
+from app.backend.prompt_evalute import evaluate_prompts
 
 MAX_TABS = 5
 

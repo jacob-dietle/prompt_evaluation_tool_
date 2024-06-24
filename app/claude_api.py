@@ -3,7 +3,7 @@ import json
 import logging
 from anthropic import AsyncAnthropic
 from dotenv import load_dotenv
-from models.claude_api_models import TextBlock, Usage
+from .models.claude_api_models import TextBlock, Usage
 
 load_dotenv()
 
