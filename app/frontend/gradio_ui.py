@@ -139,7 +139,7 @@ logo_markdown = """
 
 with gr.Blocks() as demo:
     gr.Markdown("# 🟠Prompt Evaluation Tool")
-    gr.Markdown("This app allows you test multiple prompt and variable combinations at once to accelerate your prompt engineering. How to use video [here](https://www.youtube.com/watch?v=djV11QZ7zK8)")
+    gr.Markdown("This app allows you test multiple prompt and variable combinations at once to accelerate your prompt engineering. How to use video [here](https://www.loom.com/share/4baee550b7ef40e7a7fb0a7bda438466)")
     
     
 

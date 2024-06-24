@@ -15,7 +15,7 @@ license: agpl-3.0
 The Prompt Evaluation Tool is a Gradio-based application designed to accelerate prompt engineering by allowing users to test multiple prompt and variable combinations simultaneously.
 
 
-You can use this app hosted on HF Spaces at this [link]()
+You can use this app hosted on HF Spaces at this [link](https://huggingface.co/spaces/jacob-dietle/prompt-evaluation-tool)
 
 ## Features:
 
