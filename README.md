@@ -1,3 +1,15 @@
+---
+title: Prompt Evaluation Tool
+emoji: 🟠
+colorFrom: yellow
+colorTo: yellow
+sdk: gradio
+sdk_version: 4.36.1
+app_file: app.py
+pinned: false
+license: agpl-3.0
+---
+
 # 🟠Prompt Evaluation Tool
 
 The Prompt Evaluation Tool is a Gradio-based application designed to accelerate prompt engineering by allowing users to test multiple prompt and variable combinations simultaneously.
